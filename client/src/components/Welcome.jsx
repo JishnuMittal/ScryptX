@@ -48,7 +48,17 @@ const Welcome = () => {
     <div className="flex w-full justify-center items-center">
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
-          <img src="../../images/crypto made easy.png" className="md:w-9/12 w-11/12"/>
+          {/* <img src="https://drive.google.com/file/d/1lVGJo0Vn323SIkLxoe-8AwY6XSUlswwx/view?usp=sharing" className="md:w-9/12 w-11/12"/> */}
+          <svg xmlns="http://www.w3.org/2000/svg" width="703" height="267" viewBox="0 0 703 267" className="md:w-9/12 w-11/12">
+  <g id="Group_4" data-name="Group 4" transform="translate(-134 -226)">
+    <g id="Group_3" data-name="Group 3" transform="translate(37.5)">
+      <text id="CRYPTO" transform="translate(97.5 398)" fill="#fff" stroke="#fff" stroke-width="1" font-size="159" font-family="IntegralCF-Regular, Integral CF"><tspan x="0" y="0">CRYPTO</tspan></text>
+      <text id="ANALYSIS_MADE_EASY." data-name="ANALYSIS MADE EASY." transform="translate(114.5 485)" fill="#fff" stroke="#fff" stroke-width="1" font-size="58" font-family="IntegralCF-Regular, Integral CF"><tspan x="0" y="0">ANALYSIS MADE EASY.</tspan></text>
+      <line id="Line_2" data-name="Line 2" y1="0.5" x2="537" transform="translate(179.5 423)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
+
           {!currentAccount && (
             <button
               type="button"
